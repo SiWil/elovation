@@ -5,7 +5,7 @@ services:
       context: .
       dockerfile: Dockerfile-db
     environment:
-      - POSTGRESS_PASSWORD=$POSTGRESS_PASSWORD
+      - POSTGRES_PASSWORD=$POSTGRES_PASSWORD
       - ELOVATION_DB_USER_PASSWORD=$ELOVATION_DB_USER_PASSWORD
       - ELOVATION_DB_ADMIN_PASSWORD=$ELOVATION_DB_ADMIN_PASSWORD
     volumes:
